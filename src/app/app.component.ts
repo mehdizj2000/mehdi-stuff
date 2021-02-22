@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'mehdi-stuff';
+
+  post = {
+    isFav: true
+  }
+
+  onFavChanged(somedata: string){
+    console.log('drfgdytey%$#' + somedata);
+  }
 }

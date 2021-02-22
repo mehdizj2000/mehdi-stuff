@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "mehdi-stuff"
+    }
+  },
+  "defaultProject": "mehdi-stuff",
+  "cli": {
+    "analytics": false
+  }
 }
