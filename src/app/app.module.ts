@@ -35,7 +35,7 @@ import { RouterModule } from '@angular/router';
     { path: 'profile/:id', component: GithubProfileComponent },
     { path: 'posts', component: PostsComponent },
     { path: '**', component: NotFoundComponent }
-    ])
+], { relativeLinkResolution: 'legacy' })
   ],
   providers: [],
   bootstrap: [AppComponent]
