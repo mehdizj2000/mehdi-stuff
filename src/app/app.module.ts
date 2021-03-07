@@ -13,6 +13,7 @@ import { HomeComponent } from './home/home.component';
 import { GithubProfileComponent } from './github-profile/github-profile.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { RouterModule } from '@angular/router';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { RouterModule } from '@angular/router';
     { path: 'profile/:id', component: GithubProfileComponent },
     { path: 'posts', component: PostsComponent },
     { path: '**', component: NotFoundComponent }
-], { relativeLinkResolution: 'legacy' })
+], { relativeLinkResolution: 'legacy' }),
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
